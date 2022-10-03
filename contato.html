@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <script type="text/javascript" src="script.js"></script>
+        
+        <title>Portifólio de Cynthia</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav>
+                    <a title="Direciona para a página inicial" href="index.html" > Sobre mim </a> | <a title="Direciona para página de projetos" 
+                    href="Projetos.html" > Projetos </a> | Contato <br/><br/>
+                </nav>
+                
+                <img alt="Foto de Cynthia" src="IMG/foto_perfil.jpg" width="150" />
+                
+            </div> 
+        </header>
+        <div class="formulario">
+
+            <p>Prencha os campos abaixo para me enviar uma mensagem:</p><br/>
+
+            <form enctype="application/x-www-form-urlencoded" id="formulario" method="post" name="formulario">
+            <!--atributo action - backend, onde os dados serão salvos -->
+
+                <label for="NomeCompleto">Nome:</label>
+                <input id="nome" type="text" name="nome" placeholder="Digite seu nome"/> <br/><br/>
+
+                <label for="Email">E-mail:</label>
+                <input id="email" type="text" name="email" placeholder="Digite seu e-mail"/> <br/><br/>
+
+                <label for="telefone">Telefone:</label>
+                <input id="telefone" type="text" name="telefone" placeholder="Digite seu telefone"/> <br/><br/>
+
+                <label for="Assunto">Assunto:</label>
+                <input id="assunto" type="text" name="assunto" placeholder="Assunto da mensagem"/> <br/>
+
+                <label for="Mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva mensagem"></textarea><br/>
+
+                <button type="submit" class="botao" name="submit" onclick="validar()">Enviar<br/>
+            </form>
+        </div>
+    
+    <footer>
+        <a href="https://www.linkedin.com/in/cynthia-cordeiro-chalegre/">
+            <img alt="Link para Linkedin" src="img/logo-linkedin.png" width="30"/>
+        </a>
+        <a href="https://github.com/cynthiachalegre">
+            <img alt="Link para Github" src="img/logo-github.png" width="30" />
+        </a>
+    </footer>
+    </body>
+</html>
